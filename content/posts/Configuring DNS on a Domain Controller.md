@@ -67,8 +67,8 @@ Forwarders can help to enhance DNS resolution efficiency, especially for externa
 
 In a corporate environment, it's usually preferred to manually configure the DNS as it allows for greater control and customization of DNS settings. 
 
-![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcdnssnapshot.png)
+![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcforwaders.png)
 
 We can now set the primary DNS to the domain controller's IP.
 
-![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcdnssnapshot.png)
+![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/rdsdns.png)
