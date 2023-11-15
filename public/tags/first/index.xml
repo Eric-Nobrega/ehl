@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>first on ehl.local</title>
+    <link>https://ehl.local.github.io/tags/first/</link>
+    <description>Recent content in first on ehl.local</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ehl.local.github.io/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Azure AD Sync</title>
+      <link>https://ehl.local.github.io/posts/post-1-copy/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ehl.local.github.io/posts/post-1-copy/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up A Homelab Environment</title>
+      <link>https://ehl.local.github.io/posts/post-1/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ehl.local.github.io/posts/post-1/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>
