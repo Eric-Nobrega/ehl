@@ -35,6 +35,4 @@ DNS (Domain Name System) is a system that translates human-readable domain names
 
 In my current home lab environemnt, I have 2 virtual machines. Virtual machine 1, acts as a domain controller (EHL-DC01). Virtual machine 2, acts as a remote desktop server (EHL-RDS01). I'll be walking through how I have configured DNS in this simple environment, cover the benefits of why I have done certain things, etc.
 
-![Test](content/posts/images/dcipconfig.png)
-![Test](content\posts\images\dcipconfig.png)
-content\posts\images\dcipconfig.png
+![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcipconfig.png)
