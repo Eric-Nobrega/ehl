@@ -53,4 +53,22 @@ This is common practice as it ensures that the domain controller can locate itse
 
 ### If the preferred DNS is set to itself, with no secondary DNS setup, how can the domain controller resolve domain names?
 
-The answer to this, is **Forwarders**.
+The answer to this, is **Forwarders**. 
+
+Forwarders are DNS servers that a DNS server uses to forward DNS queries that it cannot resolve locally. 
+
+When a DNS server receives a DNS query from a client, it will first check its own cache and local records. If it does not have the information needed to resolve the query, it will do the following:
+
+1 - Perform a recursive query, this is basically where it will start from the root DNS servers, and follow the chain of referrals until it obtains the necessary information. This is the traditional way that DNS servers will resolve queries.
+
+2 - DNS servers can forward the query to another DNS server that may have a better chance of resolving it. This other DNS server is known as a "forwarder".
+
+Forwarders can help to enhance DNS resolution efficiency, especially for external queries, since they have larger caches and optimized routes for resolving common domain names, which results in a reduced time to get a response. 
+
+In a corporate environment, it's usually preferred to manually configure the DNS as it allows for greater control and customization of DNS settings. 
+
+![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcdnssnapshot.png)
+
+We can now set the primary DNS to the domain controller's IP.
+
+![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcdnssnapshot.png)
