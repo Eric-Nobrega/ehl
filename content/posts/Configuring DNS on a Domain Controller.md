@@ -47,7 +47,7 @@ In my current home lab environemnt, I have 2 virtual machines. Virtual machine 1
 
 The first step in configuring DNS in this environment is to set the primary DNS server of the domain controller to itself. 
 
-![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcipconfig.png)
+![Test](https://raw.githubusercontent.com/Eric-Nobrega/ehl/main/content/posts/images/dcdnssnapshot.png)
 
 This is common practice as it ensures that the domain controller can locate itself for necessary services. 
 
