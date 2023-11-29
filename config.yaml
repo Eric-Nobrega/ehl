@@ -32,9 +32,9 @@ params:
 
   socialIcons:
     - name: linkedin
-      url: "https://linkedin.com"
+      url: "https://www.linkedin.com/in/eric-nobrega-615bb5151/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Eric-Nobrega"
 
   cover:
     hidden: true # hide everywhere but not in structured data
